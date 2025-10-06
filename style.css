@@ -13,6 +13,17 @@ button {
     background-color: #64A712;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5A9B10;
 }
 
 .passo {
@@ -20,7 +31,7 @@ button {
 }
 
 .passo.ativo {
-    display:block;
+    display: block;
 }
 
 main {
@@ -30,4 +41,12 @@ main {
 
 img {
     max-width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
